@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>henu.soft.xiaosi</groupId>
+    <artifactId>guli-shop</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>guli-shop</name>
+    <description>聚合服务</description>
+    <packaging>pom</packaging>
+
+
+<!--    聚合各个微服务-->
+    <modules>
+        <module>guli-shop-product</module>
+        <module>guli-shop-order</module>
+        <module>guli-shop-ware</module>
+        <module>guli-shop-coupon</module>
+        <module>guli-shop-member</module>
+        <module>guli-shop-admin</module>
+        <module>renren-generator</module>
+        <module>guli-shop-common</module>
+        <module>guli-shop-third-party</module>
+        <module>guli-shop-seckill</module>
+        <module>资料汇总</module>
+
+    </modules>
+
+
+</project>

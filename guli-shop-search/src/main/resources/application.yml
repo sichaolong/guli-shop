@@ -1,0 +1,11 @@
+spring:
+  # Nacos服务注册中心地址，注册服务
+  cloud:
+    nacos:
+      discovery:
+        access-addr: 127.0.0.1:8848
+
+  # 分布式session
+  redis:
+    port: 6379
+    host: xxx

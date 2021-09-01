@@ -1,0 +1,26 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+#设置忽略文件 **/ 任意文件夹下
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+**/target/
+
+guli-shop-third-party/src/main/resources/application.propertiesgit
+guli-shop-product/src/main/resources/application.properties
+
+guli-shop-auth-server/src/main/java/henu/soft/xiaosi/authserver/component/NewSmsCode.java
+
+
+
+

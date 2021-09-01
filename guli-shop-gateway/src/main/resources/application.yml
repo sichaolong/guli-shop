@@ -1,0 +1,112 @@
+spring:
+  cloud:
+    # 注册中心
+    nacos:
+      discovery:
+        access-addr: 127.0.0.1:8848
+
+    # 网关
+    gateway:
+      routes:
+        - id: qq_route
+          uri: https://www.qq.com
+          predicates:
+            - Query=xiaosi
+        # 1. 商品模块的路由，一定要注意顺序
+        - id: product_route
+          uri: lb://guli-shop-product
+          predicates:
+            - Path=/api/product/**
+          # 重写路径
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+        # 2. 第三方服务模块的路由,OOS相关
+        - id: thirdparty_route
+          uri: lb://guli-shop-third-party
+          predicates:
+            - Path=/api/third-party/**
+          filters:
+            - RewritePath=/api/third-party/(?<segment>.*),/$\{segment}
+
+        # 3. 会员微服务
+        - id: member_router
+          uri: lb://guli-shop-member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        # 3. 库存微服务
+        - id: ware_router
+          uri: lb://guli-shop-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+
+        # 4. 优惠服务，秒杀服务
+        - id: coupon_router
+          uri: lb://guli-shop-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+
+        # 1. 首页
+        - id: guli-shop_host_route
+          uri: lb://guli-shop-product
+          predicates:
+            - Host=gulishop.cn,item.gulishop.cn
+
+        #2. 首页搜索,商品详情页
+        - id: search_router
+          uri: lb://guli-shop-search
+          predicates:
+            - Host=search.gulishop.cn
+
+        # 3. 登录
+        - id: auth_router
+          uri: lb://guli-shop-auth-server
+          predicates:
+            - Host=auth.gulishop.cn
+
+        # 4. 购物车
+        - id: cart_router
+          uri: lb://guli-shop-cart
+          predicates:
+            - Host=cart.gulishop.cn
+        # 5. 订单
+        - id: order_router
+          uri: lb://guli-shop-order
+          predicates:
+            - Host=order.gulishop.cn
+
+        # 6. 会员
+        - id: member_router
+          uri: lb://guli-shop-member
+          predicates:
+            - Host=member.gulishop.cn
+
+        # 6. 秒杀
+        - id: seckill_router
+          uri: lb://guli-shop-seckill
+          predicates:
+            - Host=seckill.gulishop.cn
+
+
+
+        #  后台微服务模块
+        - id: admin_route
+          uri: lb://guli-shop-admin
+          predicates:
+            - Path=/api/**
+          # 重写路径找到验证码请求路径
+          filters:
+            - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
+
+
+
+
+

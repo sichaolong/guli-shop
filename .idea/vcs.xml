@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GitSharedSettings">
+    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/renren-fast" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/renren-generator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/资料汇总/人人开源代码生成器/renren-generator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/资料汇总/后台搭建完成还未使用代码生成器/guli-shop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/资料汇总/后台搭建完成还未使用代码生成器/guli-shop-vue/renren-fast-vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/资料汇总/后台搭建完成还未使用代码生成器/guli-shop/renren-fast" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+# 配置数据源相关信息
+spring:
+  datasource:
+    username: root
+    password: xiaosi123
+    url: jdbc:mysql://xxx:3306/guli-shop_ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+  # Nacos服务注册中心地址，注册服务
+  cloud:
+    nacos:
+      discovery:
+        access-addr: 127.0.0.1:8848
+
+
+  redis:
+    host: xxx
+    port: 6379
+
+
+mybatis-plus:
+  # 配置MyBatis Plus的 mapper 文件映射路径
+  # classpath 和 classpath* 不同，前者表示只扫描本项目下的
+  mapper-locations: classpath*:/mapper/**/*.xml
+  # 配置全局主键自增
+  global-config:
+    db-config:
+      id-type: auto
+
+
+

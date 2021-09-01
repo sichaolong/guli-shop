@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="guli-shop-gateway" />
+        <module name="guli-shop-product" />
+        <module name="guli-shop-coupon" />
+        <module name="guli-shop-member" />
+        <module name="guli-shop-common" />
+        <module name="资料汇总" />
+        <module name="guli-shop-auth-server" />
+        <module name="guli-shop-search" />
+        <module name="renren-generator" />
+        <module name="guli-shop-cart" />
+        <module name="guli-shop-order" />
+        <module name="guli-shop-seckill" />
+        <module name="guli-shop-third-party" />
+        <module name="renren-fast" />
+        <module name="guli-shop-ware" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guli-shop" target="1.5" />
+      <module name="guli-shop-admin" target="1.8" />
+      <module name="guli-shop-auth-server" target="11" />
+      <module name="guli-shop-cart" target="11" />
+      <module name="guli-shop-common" target="11" />
+      <module name="guli-shop-coupon" target="1.8" />
+      <module name="guli-shop-gateway" target="11" />
+      <module name="guli-shop-member" target="1.8" />
+      <module name="guli-shop-order" target="11" />
+      <module name="guli-shop-product" target="11" />
+      <module name="guli-shop-search" target="1.8" />
+      <module name="guli-shop-seckill" target="11" />
+      <module name="guli-shop-third-party" target="11" />
+      <module name="guli-shop-ware" target="11" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="资料汇总" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="guli-shop-admin" options="-parameters" />
+      <module name="guli-shop-auth-server" options="-parameters" />
+      <module name="guli-shop-cart" options="-parameters" />
+      <module name="guli-shop-coupon" options="-parameters" />
+      <module name="guli-shop-gateway" options="-parameters" />
+      <module name="guli-shop-member" options="-parameters" />
+      <module name="guli-shop-order" options="-parameters" />
+      <module name="guli-shop-product" options="-parameters" />
+      <module name="guli-shop-search" options="-parameters" />
+      <module name="guli-shop-seckill" options="-parameters" />
+      <module name="guli-shop-third-party" options="-parameters" />
+      <module name="guli-shop-ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

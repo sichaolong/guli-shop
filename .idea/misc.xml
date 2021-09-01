@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/guli-shop-product/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-order/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-member/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-common/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-third-party/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-search/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-shop-seckill/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/renren-fast/guli-shop-common/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/guli-shop-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/guli-shop-member/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/guli-shop-order/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/guli-shop-product/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/guli-shop-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/guli-shop-common/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/guli-shop-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/guli-shop-member/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/guli-shop-order/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/guli-shop-product/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/guli-shop-ware/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

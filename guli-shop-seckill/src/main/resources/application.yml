@@ -1,0 +1,38 @@
+spring:
+  # Nacos服务注册中心地址，注册服务
+  cloud:
+    nacos:
+      discovery:
+        access-addr: 127.0.0.1:8848
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: false
+
+  redis:
+    host: xxx
+    port: 6379
+
+  # 秒杀
+  rabbitmq:
+    host: xxx
+    port: 5672
+    virtual-host: /
+    # publisher-confirms: true 抵达消息服务器回调
+    # 抵达队列回调
+    publisher-returns: true
+    template:
+      mandatory: true
+    # 消息成功消费ack,手动确认
+    listener:
+      simple:
+        acknowledge-mode: manual
+
+    # Sentinel限流、熔断
+    sentinel:
+      # 该微服务和Sentinel控制台的传输端口
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+
+

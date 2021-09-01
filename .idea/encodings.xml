@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/guli-shop-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-cart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-coupon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-seckill/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-seckill/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-third-party/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-third-party/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-ware/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-shop-ware/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator/src/main/java" charset="UTF-8" />
+  </component>
+</project>

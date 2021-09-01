@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/guli-shop.iml" filepath="$PROJECT_DIR$/.idea/guli-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-auth-server/guli-shop-auth-server.iml" filepath="$PROJECT_DIR$/guli-shop-auth-server/guli-shop-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-cart/guli-shop-cart.iml" filepath="$PROJECT_DIR$/guli-shop-cart/guli-shop-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-common/guli-shop-common.iml" filepath="$PROJECT_DIR$/guli-shop-common/guli-shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-coupon/guli-shop-coupon.iml" filepath="$PROJECT_DIR$/guli-shop-coupon/guli-shop-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-gateway/guli-shop-gateway.iml" filepath="$PROJECT_DIR$/guli-shop-gateway/guli-shop-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-member/guli-shop-member.iml" filepath="$PROJECT_DIR$/guli-shop-member/guli-shop-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-order/guli-shop-order.iml" filepath="$PROJECT_DIR$/guli-shop-order/guli-shop-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-product/guli-shop-product.iml" filepath="$PROJECT_DIR$/guli-shop-product/guli-shop-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-search/guli-shop-search.iml" filepath="$PROJECT_DIR$/guli-shop-search/guli-shop-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-seckill/guli-shop-seckill.iml" filepath="$PROJECT_DIR$/guli-shop-seckill/guli-shop-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-third-party/guli-shop-third-party.iml" filepath="$PROJECT_DIR$/guli-shop-third-party/guli-shop-third-party.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-ware/guli-shop-ware.iml" filepath="$PROJECT_DIR$/guli-shop-ware/guli-shop-ware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-shop-admin/renren-fast.iml" filepath="$PROJECT_DIR$/guli-shop-admin/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/资料汇总/资料汇总.iml" filepath="$PROJECT_DIR$/资料汇总/资料汇总.iml" />
+    </modules>
+  </component>
+</project>

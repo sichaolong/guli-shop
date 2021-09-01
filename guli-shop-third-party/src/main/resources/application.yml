@@ -1,0 +1,21 @@
+spring:
+  # Nacos服务注册中心地址，注册服务
+  cloud:
+    nacos:
+      discovery:
+        access-addr: 127.0.0.1:8848
+
+  # 自定义腾讯云短信配置
+tencent:
+  sms:
+    # 配置腾讯云API密钥的SecretId
+    secretId: xxx
+    # 配置腾讯云API密钥的SecretKey
+    secretKey: xxx
+    # 配置短信应用的SDKAppID
+    appId: xxx
+    # 配置签名内容
+    sign: "垃圾慧分类助手"
+    # 配置模板ID
+    templateId: xxx
+
